@@ -1,0 +1,33 @@
+/*1*/
+.wrap-drop {
+    width: 110px;
+    height:auto;
+    float: left;
+}
+.ezdz-dropzone {
+    color: #47443E !important;
+    float: left;
+    width: 110px !important;
+    height:110px !important;
+    font-size: 50px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    line-height: 100px !important;
+    border: 5px dotted #47443E !important;
+    cursor: pointer !important;
+}
+.ezdz-enter {
+    border: 5px solid #333 !important;
+    color: #333 !important;
+}
+.ezdz-enter {
+    border: 5px solid #333 !important;
+    color: #333 !important;
+}
+.ezdz-accept {
+    border: 5px solid #333 !important;
+    color: #333 !important;
+}
+.ezdz-reject {
+    border: 5px solid #333 !important;
+    color: #333 !important;
+}

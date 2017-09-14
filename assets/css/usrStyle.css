@@ -1,0 +1,223 @@
+.container-fluid {
+    min-height: 100vh;
+}
+
+/*ACCORDEON PREDEFINI*/
+.accordion {
+    background-color: #CCD6DE;
+    color: #303940;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    height: 90px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.accordion.active, accordion:hover {
+    background-color: #A3BBC9; 
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
+
+div.panel.show {
+    display: block;
+}
+/*CSS PARTIE CANDIDATE*/
+
+.usrCandidateProfilPicture{
+    width: 110px;
+    height: 110px;
+    border: gray 3px solid;
+    float: left;
+    border-radius: 20px;
+}
+.usrChevronDown{
+    padding-top: 20px;
+}
+@media only screen and (max-width: 490px) {
+    .usrCandidateBlockName{
+        font-size: 12px;
+    }
+    .usrCandidateName{
+        width: 100px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    #usrCandidateAlpha{
+        margin-left: 130px;
+    }
+}
+#usrCandidateTable th, #usrCandidateTable td {
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+}
+#usrCandidateFilter{
+    padding : 30px;
+    background-color: #5E757D;
+    z-index: 99999;
+    margin-bottom: 30px!important;
+}
+.usrCandidateSelect {
+    height: 35px;
+    text-align: center;
+}
+#usrCandidateAlpha{
+    margin-bottom: 10px;
+}
+.usrCandidateSubmit{
+    margin-top: 4px;
+}
+.usrCandidateSearch{
+    margin-bottom: 5px;
+}
+#usrCandidateBtnTop{
+    height: 60px;
+    width: 42px;
+    padding-left: 8px;
+    padding-top: 15px;
+    margin-top: 6px;
+    border-radius: 10px;
+    background-color: #FF8100;
+}
+#usrCandidateBtnTop:hover{
+    background-color: #FF9C22;
+}
+#usrCandidateBtnTop i{
+    color: white;
+}
+/* PAGE CONNEXION.PHP */
+.usrConnexionLog {
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 0px 5px 0px;
+    margin: 5px 0px 5px 0px;
+}
+.usrConnexionSubmit {
+    width: 171px;
+}
+
+/* PAGE ADDORCHANGEUSER.php */
+@media only screen and (min-width: 800px) {
+    .usrAddOrChangeUserBloc {
+        background-color: #EBEBEB;
+        border-radius: 10px;
+        length : 600px;
+        width: 33%;
+        text-align: center;
+        padding-left: auto;
+        padding-right: auto;
+        margin-left: 33%;
+        margin-right: 33%;
+    }
+    .usrAddOrChangeUserInput {
+        text-align: center;
+        width: 100%;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .usrAddOrChangeUserSelect {
+        padding-right: 60px;
+        margin-bottom: 10px;
+    }
+}
+
+/* PAGE MANAGEUSER.PHP */
+.usrManageUserMainTitle {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.usrManageUserFilter {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+/* Souligne et centre les titres des colonnes */
+.usrManageUserTitles {
+    text-decoration: underline;
+    text-align: center;
+}
+/* Espace les titres des colonnes */
+.usrManageUserTitlesCenter {
+    padding-right: 35px;
+    padding-left: 35px;
+    text-align: center;
+}
+/* Tableau des utilisateurs */
+.usrManageUserContent {
+    border: 1px solid white;
+    background-color: #DDDDDD;
+    text-align: center;
+}
+.usrReceptionForm {
+    float: right;
+    display: inline-table;
+}
+/* FOOTER */
+.usrFooter {
+    width: 100%;
+    background-color:#282C34;
+}
+.usrFooterCopyright{
+    text-align: center;
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: "Open Sans MS";
+    font-style: normal;
+    font-size: 13px;
+}
+/* HEADER */
+/* Aligne login, password et se connecter */
+.usrHeaderMenu {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+.usrHeaderDropdown {
+    padding-top: 15px;
+}
+.usrHeaderTop {
+    padding-bottom: 20px;
+}
+.usrHeaderBottom {
+    padding-bottom: 20px;
+}
+.usrHeaderConnexionBar {
+    padding-left: 80px;
+}
+.usrHeaderConnexionName {
+    padding-top: 15px;
+}
+/* PAGE PROFILE.PHP */
+/* Aligne le boutton "modifier" avec les inputs */ 
+.usrProfileButton {
+    padding-bottom: 50px;
+}
+/*PAGE GROUPE*/
+.usrTitleGroup {
+   text-align : center;
+   font-size: 50px;
+   margin-bottom:25px;
+}
+.usrAddGroupBtn{
+   margin-left:45%;
+   background-color:#D7DCDC ;
+   margin-bottom: 10px;
+}
+.usrManageGroupImg{
+   margin:15%;
+}
+.usrModifGroup{
+   margin-right:10%;
+}
